@@ -1,0 +1,9 @@
+
+def sumNumber(alist):
+    sumN = 0
+    for a in alist:
+        sumN = sumN + a
+    print('sum is ', sumN)
+
+alist = (8,2,3,0,7)
+sumNumber(alist)
