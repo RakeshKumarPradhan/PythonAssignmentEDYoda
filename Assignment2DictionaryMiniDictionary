@@ -1,0 +1,7 @@
+
+dictA = {}
+
+for i in range(97,123):
+    dictA.__setitem__(chr(i), i)
+
+print(dictA)
