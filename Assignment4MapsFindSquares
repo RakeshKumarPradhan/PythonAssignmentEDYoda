@@ -1,0 +1,7 @@
+def square(n):
+    return (n*n)
+
+a = [4,5,2,9]
+
+x = map(square, a)
+print(list(x))
