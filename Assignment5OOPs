@@ -1,0 +1,17 @@
+
+class Power:
+    def __init__(self, number, raisedby):
+        self.number = number
+        self.raisedby = raisedby
+
+    def calculateanddisplay(self):
+        output = pow(self.number, self.raisedby)
+        print('the value of', self.number, 'raised to the power of', self.raisedby, 'is :', output)
+          
+print('enter the value of x : ')
+x = int(input())
+print('enter the value for power of x : ')
+n = int(input())
+test = Power(x, n)
+test.calculateanddisplay()
+
