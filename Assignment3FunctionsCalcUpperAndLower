@@ -1,0 +1,12 @@
+def countLargeAndSmallAlphabets(str):
+    countA = 0
+    countB = 0
+    for element in str:
+        if(element.isupper() and element != ' '):
+            countA = countA + 1
+        elif(not(element.isupper()) and element != ' '):
+            countB = countB + 1
+    print('capital letters ', countA)
+    print('small letters ', countB)
+
+countLargeAndSmallAlphabets('The quick brown Fox')
