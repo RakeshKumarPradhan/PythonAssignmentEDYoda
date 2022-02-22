@@ -1,0 +1,7 @@
+lambda_add25 = lambda x : x+25
+
+y = (int)(input('enter a number : '))
+
+a = lambda_add25(y)
+
+print(a)
